@@ -1,6 +1,6 @@
 # Unit Conversion API
 
-## Description
+
 A Simple RESTful API Built with ASP.NET Core (.NET 8) that Converts Numerical Values between different units of Measurement including Length, Temperature, and Weight through a single clean REST endpoint.
 
 ---
