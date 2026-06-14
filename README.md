@@ -6,12 +6,12 @@ A lightweight RESTful API built with ASP.NET Core (.NET 8) that converts numeric
 ---
 
 ## Features
-- ✅ Length conversion (meter, kilometer, mile, foot, inch, yard, cm, mm)
-- ✅ Temperature conversion (celsius, fahrenheit, kelvin)
-- ✅ Weight conversion (kilogram, gram, pound, ounce, ton)
-- ✅ Case-insensitive unit names (`KG`, `kg`, `Kg` all work)
-- ✅ Common abbreviations supported (`km`, `ft`, `lbs`, `cm`)
-- ✅ Interactive Swagger UI for easy testing
+-  Length conversion (meter, kilometer, mile, foot, inch, yard, cm, mm)
+-  Temperature conversion (celsius, fahrenheit, kelvin)
+-  Weight conversion (kilogram, gram, pound, ounce, ton)
+-  Case-insensitive unit names (`KG`, `kg`, `Kg` all work)
+-  Common abbreviations supported (`km`, `ft`, `lbs`, `cm`)
+-  Interactive Swagger UI for easy testing
 
 ---
 
@@ -123,8 +123,3 @@ The conversion logic lives in one file (`ConversionService.cs`) so adding new un
 
 ---
 
-## Future Improvements
-- Add unit tests
-- Add input validation with detailed error messages
-- Support more unit categories (speed, volume, area)
-- Database-backed unit registry for dynamic unit management
