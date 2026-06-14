@@ -117,7 +117,7 @@ http://localhost:5000/swagger
 
 ## Design Decisions & Challenges
 
-The API uses a single endpoint for all unit categories (length, temperature, weight). Length and weight conversions work by converting to a base unit first (meters/kilograms), then to the target unit. Temperature uses direct formulas since it needs offset math, not just multiplication — this was the main challenge as it could not follow the same pattern as other units.
+The API uses a single endpoint for all unit categories (length, temperature, weight). Length and weight conversions work by converting to a base unit first (meters/kilograms), then to the target unit. Temperature uses direct formulas since it needs offset math, not just multiplication - this was the main challenge as it could not follow the same pattern as other units.
 
 The conversion logic lives in one file (`ConversionService.cs`) so adding new units in the future only requires changes in one place. Making unit names case-insensitive and supporting abbreviations like `km`, `ft`, `lbs` was a small challenge but improves usability greatly. Swagger is enabled by default so anyone can test the API instantly after running it locally.
 
